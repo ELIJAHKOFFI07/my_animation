@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:my_animation/models/FruitDatabase.dart';
 import 'package:my_animation/pages/home_page.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+ await FruitDatabase.init();
   runApp(const MyApp());
 }
 

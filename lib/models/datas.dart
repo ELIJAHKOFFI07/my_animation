@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:my_animation/models/material_design.dart';
 
+import 'fruit.dart';
 import 'greek_city.dart';
 
 class Datas{
@@ -28,5 +29,10 @@ class Datas{
     GreekCity("Sounion", sounion, "Le cap Sounion est un cap de Grèce qui s'avance à 45 kilomètres au sud-est d’Athènes dans la mer Égée et qui constitue l'extrémité de l'Attique. Il est surtout renommé pour les ruines d'un temple dédié à Poséidon. Il est classé parmi les parcs nationaux de Grèce."),
     GreekCity("Corfou", corfou, "Corfou, une île au large de la côte nord-ouest de la mer Ionienne, se caractérise par ses montagnes escarpées et ses nombreuses stations balnéaires. Son patrimoine culturel témoigne d’années passées sous domination vénitienne, française et britannique, avant son rattachement à la Grèce en 1864. La ville de Corfou, dominée par deux forteresses vénitiennes imposantes, dispose de ruelles médiévales sinueuses, d’une arcade à l’architecture française et du grand palais de St. Michel et St. Georges."),
     GreekCity("Delphes", delphi, "Delphes  est le site d'un sanctuaire panhellénique, situé au pied du mont Parnasse, en Phocide, où parle l'oracle d'Apollon à travers sa prophétesse, la Pythie ; il abrite également l'Omphalos ou « nombril du monde ». Investie d'une signification sacrée, Delphes est du vie au ive siècle av. J.-C. le véritable centre et le symbole de l'unité du monde grec. La Pythie se trouve assise dans une salle du temple d’Apollon et parlait au nom du dieu. Elle répondait aux questions qui lui étaient posées en émettant des cris inarticulés, aussitôt traduits en phrases par des prêtres. Les sanctuaires panhelléniques sont des complexes architecturaux extérieurs aux cités. Ils constituent les seuls lieux où tous les anciens Grecs, et certains barbares (Lydiens et Étrusques) prennent part à des célébrations religieuses communes."),
+  ];
+
+  static List<Fruit>fruits= [
+    Fruit(name: "Poire"), Fruit(name: "Abricot"),Fruit(name: "pomme"),Fruit(name: "escargot")
+
   ];
 }

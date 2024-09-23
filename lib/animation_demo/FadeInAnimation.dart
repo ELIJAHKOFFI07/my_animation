@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:my_animation/models/datas.dart';
 
 class FadeInAnimation extends StatelessWidget {
-  Duration duration_in =Duration(seconds: 1);
+  Duration duration_in =const Duration(seconds: 1);
    FadeInAnimation({super.key});
 
   @override
